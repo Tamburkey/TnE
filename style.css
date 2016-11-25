@@ -1,11 +1,14 @@
 .Header {
   text-align: center;
   text-transform: uppercase;
-  font-size: 200%;
+  padding:75px 0;
+  font-size: 100px;
   font-weight: bold;
+  font-family: Verdana;
   border-style: ridge;
   border-radius: 15px;
-  background-color: #f44242;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/78/88/3c/78883c2c8da913a0277728e01ad970a9.jpg");
+  background-repeat: round;
 }
 .Toc {
   display: block;
@@ -15,13 +18,13 @@
   border-style: solid;
   border-color: blue;
   border-radius: 15px;
-  padding: 70px 0;
+  padding: 30px 0;
   font-size: 300%;
   background-color: yellow;
   text-transform: uppercase;
 }
 .Tocitem{
-  padding: 75px 0;
+  padding: 35px 0;
   background-color: pink;
   width: 75%;
   margin: auto;
@@ -31,30 +34,35 @@
 }
 .Character {
   display: block;
-  background-color: #42f4f1;
+  background-image: url("http://vignette1.wikia.nocookie.net/timanderic/images/8/85/Fiv%5C'r.JPG/revision/latest?cb=20081014150030");
+  background-repeat: round;
   margin: auto;
   width: 60%;
   border: 5px ridge green;
   border-radius: 35px;
   border-width: 15px;
+  padding:25px;
 }
 .Name {
-  margin:auto;
+  margin: auto;
   border-style: solid;
   border-color: black;
   background-color: red;
-  width: 33%;
+  width: 55%;
   text-align: center;
   font-size:200%;
-  font-family: monospace;
+  font-family: Verdana;
+  font-weight: bold;
+
 }
 .Desc {
   border-style: solid;
   border-color: blue;
   background-color: white;
-  width: 50%;
+  width: 75%;
   margin:auto;
   text-align: center;
+  padding:20px;
 }
 .Quote {
   border-style: solid;
@@ -67,7 +75,8 @@
 .Product {
   margin:auto;
   width: 60%;
-  background-color: #42f44b;
+  background-image: url("http://vignette4.wikia.nocookie.net/timanderic/images/d/d3/Cincologos.png/revision/latest?cb=20080225054929");
+  background-repeat: round;
   border: 3px ridge purple;
   border-radius: 35px;
   border-width: 15px;
@@ -85,24 +94,29 @@
 }
 .Use {
   border-style: solid;
-  border-color: blue;
+  border-color: grey;
   background-color: white;
-  width: 50%;
+  width: 75%;
   margin:auto;
   text-align: center;
 }
 .ad{
   border-style: solid;
-  border-color: red;
+  border-color: grey;
   background-color: white;
   width: 25%;
   margin:auto;
   text-align: center;
   padding: 20px;
+  font-size: 130%;
+  font-family: Arial;
 }
 img {
   display:block;
   margin:auto;
   height: 202px;
   width: 304px;
+}
+body {
+    background-color: lightblue;
 }
