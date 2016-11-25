@@ -1,0 +1,55 @@
+.Toc {
+  display: block;
+  width: 75%;
+  margin: auto;
+  list-style: inside url('http://4.bp.blogspot.com/_n6yfbznzTvk/S07Sf6ykmqI/AAAAAAAAACY/s-hKOeMvE08/s320/2.png');
+  text-align: center;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 15px;
+  padding: 70px 0;
+  font-size: 300%;
+  background-color: yellow;
+  text-transform: uppercase;
+}
+.Tocitem{
+  padding: 35px 0;
+  width: 75%;
+  margin: auto;
+  border-style: outset;
+  text-align: center;
+  font-family: sans-serif;
+}
+.Header {
+  text-align: center;
+  text-transform: uppercase;
+  border-style: ridge;
+  border-radius: 15px;
+
+}
+.Name {
+  border-style: solid;
+  border-color: green;
+  width: 33%;
+}
+.Desc {
+  border-style: solid;
+  border-color: green;
+  width: 33%;
+}
+.Quote {
+  border-style: solid;
+  border-color: green;
+  width: 33%;
+}
+img {
+  height: 130px;
+  width: 260px;
+}
+.Character {
+  display: block;
+  margin: auto;
+  width: 75%;
+  border: 3px solid green;
+  padding: 10px;
+}
