@@ -1,8 +1,16 @@
+.Header {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 200%;
+  font-weight: bold;
+  border-style: ridge;
+  border-radius: 15px;
+  background-color: #f44242;
+}
 .Toc {
   display: block;
   width: 75%;
   margin: auto;
-  list-style: inside url('http://4.bp.blogspot.com/_n6yfbznzTvk/S07Sf6ykmqI/AAAAAAAAACY/s-hKOeMvE08/s320/2.png');
   text-align: center;
   border-style: solid;
   border-color: blue;
@@ -13,43 +21,88 @@
   text-transform: uppercase;
 }
 .Tocitem{
-  padding: 35px 0;
+  padding: 75px 0;
+  background-color: pink;
   width: 75%;
   margin: auto;
   border-style: outset;
   text-align: center;
   font-family: sans-serif;
 }
-.Header {
-  text-align: center;
-  text-transform: uppercase;
-  border-style: ridge;
-  border-radius: 15px;
-
+.Character {
+  display: block;
+  background-color: #42f4f1;
+  margin: auto;
+  width: 60%;
+  border: 5px ridge green;
+  border-radius: 35px;
+  border-width: 15px;
 }
 .Name {
+  margin:auto;
   border-style: solid;
-  border-color: green;
+  border-color: black;
+  background-color: red;
   width: 33%;
+  text-align: center;
+  font-size:200%;
+  font-family: monospace;
 }
 .Desc {
   border-style: solid;
-  border-color: green;
-  width: 33%;
+  border-color: blue;
+  background-color: white;
+  width: 50%;
+  margin:auto;
+  text-align: center;
 }
 .Quote {
   border-style: solid;
-  border-color: green;
+  border-color: red;
+  background-color: white;
+  width: 25%;
+  margin:auto;
+  text-align: center;
+}
+.Product {
+  margin:auto;
+  width: 60%;
+  background-color: #42f44b;
+  border: 3px ridge purple;
+  border-radius: 35px;
+  border-width: 15px;
+
+}
+.Pname {
+  margin:auto;
+  border-style: solid;
+  border-color: black;
+  background-color: red;
   width: 33%;
+  text-align: center;
+  font-size:200%;
+  font-family: monospace;
+}
+.Use {
+  border-style: solid;
+  border-color: blue;
+  background-color: white;
+  width: 50%;
+  margin:auto;
+  text-align: center;
+}
+.ad{
+  border-style: solid;
+  border-color: red;
+  background-color: white;
+  width: 25%;
+  margin:auto;
+  text-align: center;
+  padding: 20px;
 }
 img {
-  height: 130px;
-  width: 260px;
-}
-.Character {
-  display: block;
-  margin: auto;
-  width: 75%;
-  border: 3px solid green;
-  padding: 10px;
+  display:block;
+  margin:auto;
+  height: 202px;
+  width: 304px;
 }
