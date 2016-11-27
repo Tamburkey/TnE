@@ -1,5 +1,5 @@
 .Header {
-  color: grey;
+  color: #353233;
   font-size: 60px;
   font-family: Verdana;
   background-image: url("https://s-media-cache-ak0.pinimg.com/736x/78/88/3c/78883c2c8da913a0277728e01ad970a9.jpg");
@@ -59,6 +59,7 @@ ul {
   background-color: red;
   text-align: center;
   font-size: 200%;
+  border-radius: 15px;
 }
 .character{
   width: 55%;
@@ -66,7 +67,7 @@ ul {
 }
 .product {
   width: 33%;
-  font-family: monospace;
+  font-family: Verdana;
 }
 .Desc {
   border: solid blue;
