@@ -1,115 +1,98 @@
 .Header {
-  text-align: center;
-  text-transform: uppercase;
-  padding:75px 0;
-  font-size: 100px;
-  font-weight: bold;
+  color: grey;
+  font-size: 60px;
   font-family: Verdana;
-  border-style: ridge;
-  border-radius: 15px;
   background-image: url("https://s-media-cache-ak0.pinimg.com/736x/78/88/3c/78883c2c8da913a0277728e01ad970a9.jpg");
   background-repeat: round;
-}
-.Toc {
-  display: block;
-  width: 75%;
-  margin: auto;
-  text-align: center;
-  border-style: solid;
-  border-color: blue;
-  border-radius: 15px;
-  padding: 30px 0;
-  font-size: 300%;
-  background-color: yellow;
   text-transform: uppercase;
 }
-.Tocitem{
-  padding: 35px 0;
-  background-color: pink;
-  width: 75%;
-  margin: auto;
-  border-style: outset;
-  text-align: center;
-  font-family: sans-serif;
-}
-.Character {
+.Toc {
+  color:green;
   display: block;
+  width: 75%;
+  background-color: orange;
+}
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 10px;
+  width: 40%;
+  background-color: pink;
+}
+.Tocli a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 150%;
+  border: outset;
+}
+.Tocli a:hover {
+  background-color: #555;
+  color: white;
+}
+.obox {
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 85%;
+  border: 5px solid;
+  border-radius: 35px;
+  padding: 15px;
+}
+.Char {
+  border-color: red;
   background-image: url("http://vignette1.wikia.nocookie.net/timanderic/images/8/85/Fiv%5C'r.JPG/revision/latest?cb=20081014150030");
   background-repeat: round;
-  margin: auto;
-  width: 60%;
-  border: 5px ridge green;
-  border-radius: 35px;
-  border-width: 15px;
-  padding:25px;
 }
-.Name {
-  margin: auto;
-  border-style: solid;
-  border-color: black;
-  background-color: red;
-  width: 55%;
-  text-align: center;
-  font-size:200%;
-  font-family: Verdana;
-  font-weight: bold;
-
-}
-.Desc {
-  border-style: solid;
+.Prod {
   border-color: blue;
-  background-color: white;
-  width: 75%;
-  margin:auto;
-  text-align: center;
-  padding:20px;
-}
-.Quote {
-  border-style: solid;
-  border-color: red;
-  background-color: white;
-  width: 25%;
-  margin:auto;
-  text-align: center;
-}
-.Product {
-  margin:auto;
-  width: 60%;
   background-image: url("http://vignette4.wikia.nocookie.net/timanderic/images/d/d3/Cincologos.png/revision/latest?cb=20080225054929");
   background-repeat: round;
-  border: 3px ridge purple;
-  border-radius: 35px;
-  border-width: 15px;
-
 }
-.Pname {
-  margin:auto;
+.name {
+  margin: auto;
   border-style: solid;
   border-color: black;
   background-color: red;
-  width: 33%;
   text-align: center;
-  font-size:200%;
+  font-size: 200%;
+}
+.character{
+  width: 55%;
+  font-family: Verdana;
+}
+.product {
+  width: 33%;
   font-family: monospace;
 }
-.Use {
-  border-style: solid;
-  border-color: grey;
+.Desc {
+  border: solid blue;
   background-color: white;
   width: 75%;
-  margin:auto;
-  text-align: center;
 }
-.ad{
-  border-style: solid;
-  border-color: grey;
+.Quote {
+  border: solid red;
   background-color: white;
   width: 25%;
-  margin:auto;
-  text-align: center;
-  padding: 20px;
+}
+.Use {
+  border: solid grey;
+  background-color: white;
+  width: 75%;
+}
+.ad{
+  border: solid black;
+  background-color: white;
+  width: 25%;
   font-size: 130%;
   font-family: Arial;
+}
+.ad a:hover{
+  background-color: #555;
+  color: white;
 }
 img {
   display:block;
@@ -118,5 +101,9 @@ img {
   width: 304px;
 }
 body {
-    background-color: lightblue;
+  background-color: lightblue;
+}
+.Bon {
+  color: white;
+  background-color: black;
 }
