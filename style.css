@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   background-color: lightblue;
   font-family: Verdana;
@@ -9,38 +8,22 @@ body {
 .Header {
   color: #353233;
   font-size: 60px;
-=======
-.Header {
-  color: #353233;
-  font-size: 60px;
-  font-family: Verdana;
->>>>>>> ddc64d18feb9e7bce2ba8ccac11f0dd5fd214700
   background-image: url("https://s-media-cache-ak0.pinimg.com/736x/78/88/3c/78883c2c8da913a0277728e01ad970a9.jpg");
   background-repeat: round;
   text-transform: uppercase;
 }
 .Toc {
   color:green;
-<<<<<<< HEAD
   display: inline;
-=======
-  display: block;
->>>>>>> ddc64d18feb9e7bce2ba8ccac11f0dd5fd214700
   width: 75%;
   background-color: orange;
 }
 ul {
   list-style-type: none;
-<<<<<<< HEAD
   right: 0px;
   padding: 10px;
   width: 40%;
   height: 500px;
-=======
-  margin: auto;
-  padding: 10px;
-  width: 40%;
->>>>>>> ddc64d18feb9e7bce2ba8ccac11f0dd5fd214700
   background-color: pink;
 }
 .Tocli a {
@@ -55,7 +38,6 @@ ul {
   color: white;
 }
 .obox {
-<<<<<<< HEAD
   display:inline-block;
   width: 85%;
   border: 5px solid;
@@ -81,55 +63,12 @@ ul {
 .product {
   width: 33%;
   background-color: green;
-=======
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-  width: 85%;
-  border: 5px solid;
-  border-radius: 35px;
-  padding: 15px;
-}
-.Char {
-  border-color: red;
-  background-image: url("http://vignette1.wikia.nocookie.net/timanderic/images/8/85/Fiv%5C'r.JPG/revision/latest?cb=20081014150030");
-  background-repeat: round;
-}
-.Prod {
-  border-color: blue;
-  background-image: url("http://vignette4.wikia.nocookie.net/timanderic/images/d/d3/Cincologos.png/revision/latest?cb=20080225054929");
-  background-repeat: round;
-}
-.name {
-  margin: auto;
-  border-style: solid;
-  border-color: black;
-  background-color: red;
-  text-align: center;
-  font-size: 200%;
-  border-radius: 15px;
-}
-.character{
-  width: 55%;
-  font-family: Verdana;
-}
-.product {
-  width: 33%;
-  font-family: Verdana;
->>>>>>> ddc64d18feb9e7bce2ba8ccac11f0dd5fd214700
 }
 .Desc {
   border: solid blue;
   background-color: white;
-<<<<<<< HEAD
   width: 55%;
   margin-right: 500px;
-=======
-  width: 75%;
->>>>>>> ddc64d18feb9e7bce2ba8ccac11f0dd5fd214700
 }
 .Quote {
   border: solid red;
@@ -151,10 +90,6 @@ ul {
   background-color: #555;
   color: white;
 }
-.ad a:hover{
-  background-color: #555;
-  color: white;
-}
 img {
   display:block;
   margin: auto;
@@ -163,12 +98,6 @@ img {
   width: 488px;
   padding: 15px;
 }
-<<<<<<< HEAD
-=======
-body {
-  background-color: lightblue;
-}
->>>>>>> ddc64d18feb9e7bce2ba8ccac11f0dd5fd214700
 .Bon {
   color: white;
   background-color: black;
