@@ -1,122 +1,104 @@
-.Header {
-  text-align: center;
-  text-transform: uppercase;
-  padding:75px 0;
-  font-size: 100px;
-  font-weight: bold;
+body {
+  background-color: lightblue;
   font-family: Verdana;
-  border-style: ridge;
-  border-radius: 15px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+.Header {
+  color: #353233;
+  font-size: 60px;
   background-image: url("https://s-media-cache-ak0.pinimg.com/736x/78/88/3c/78883c2c8da913a0277728e01ad970a9.jpg");
   background-repeat: round;
-}
-.Toc {
-  display: block;
-  width: 75%;
-  margin: auto;
-  text-align: center;
-  border-style: solid;
-  border-color: blue;
-  border-radius: 15px;
-  padding: 30px 0;
-  font-size: 300%;
-  background-color: yellow;
   text-transform: uppercase;
 }
-.Tocitem{
-  padding: 35px 0;
-  background-color: pink;
+.Toc {
+  color:green;
+  display: inline;
   width: 75%;
-  margin: auto;
-  border-style: outset;
-  text-align: center;
-  font-family: sans-serif;
+  background-color: orange;
 }
-.Character {
+ul {
+  list-style-type: none;
+  right: 0px;
+  padding: 10px;
+  width: 40%;
+  height: 500px;
+  background-color: pink;
+}
+.Tocli a {
   display: block;
-  background-image: url("http://vignette1.wikia.nocookie.net/timanderic/images/8/85/Fiv%5C'r.JPG/revision/latest?cb=20081014150030");
-  background-repeat: round;
-  margin: auto;
-  width: 60%;
-  border: 5px ridge green;
-  border-radius: 35px;
-  border-width: 15px;
-  padding:25px;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 150%;
+  border: outset;
 }
-.Name {
-  margin: auto;
-  border-style: solid;
-  border-color: black;
-  background-color: red;
+.Tocli a:hover {
+  background-color: #555;
+  color: white;
+}
+.obox {
+  display:inline-block;
+  width: 85%;
+  border: 5px solid;
+  border-radius: 35px;
+  padding: 25px;
+}
+.Char {
+  border-color: red;
+  background-image: url("http://i.cdn.turner.com/adultswim/big/img/2014/07/02/Check%20It%20Out_The%20Stars%20Of%20Channel%205.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.Prod {
+  border-color: blue;
+  background-image: url("http://vignette4.wikia.nocookie.net/timanderic/images/d/d3/Cincologos.png/revision/latest?cb=20080225054929");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.character{
   width: 55%;
-  text-align: center;
-  font-size:200%;
   font-family: Verdana;
-  font-weight: bold;
-
+}
+.product {
+  width: 33%;
+  background-color: green;
 }
 .Desc {
-  border-style: solid;
-  border-color: blue;
+  border: solid blue;
   background-color: white;
-  width: 75%;
-  margin:auto;
-  text-align: center;
-  padding:20px;
+  width: 55%;
+  margin-right: 500px;
 }
 .Quote {
-  border-style: solid;
-  border-color: red;
+  border: solid red;
   background-color: white;
   width: 25%;
-  margin:auto;
-  text-align: center;
-}
-.Product {
-  margin:auto;
-  width: 60%;
-  background-image: url("http://vignette4.wikia.nocookie.net/timanderic/images/d/d3/Cincologos.png/revision/latest?cb=20080225054929");
-  background-repeat: round;
-  border: 3px ridge purple;
-  border-radius: 35px;
-  border-width: 15px;
-
-}
-.Pname {
-  margin:auto;
-  border-style: solid;
-  border-color: black;
-  background-color: red;
-  width: 33%;
-  text-align: center;
-  font-size:200%;
-  font-family: monospace;
 }
 .Use {
-  border-style: solid;
-  border-color: grey;
+  border: solid grey;
   background-color: white;
   width: 75%;
-  margin:auto;
-  text-align: center;
 }
 .ad{
-  border-style: solid;
-  border-color: grey;
+  border: solid black;
   background-color: white;
   width: 25%;
-  margin:auto;
-  text-align: center;
-  padding: 20px;
   font-size: 130%;
-  font-family: Arial;
+}
+.ad a:hover{
+  background-color: #555;
+  color: white;
 }
 img {
   display:block;
-  margin:auto;
-  height: 202px;
-  width: 304px;
+  margin: auto;
+  margin-left: 100px;
+  height: 301px;
+  width: 488px;
+  padding: 15px;
 }
-body {
-    background-color: lightblue;
+.Bon {
+  color: white;
+  background-color: black;
 }
