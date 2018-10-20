@@ -25,6 +25,7 @@ ul {
   width: 40%;
   height: 500px;
   background-color: pink;
+  margin: auto;
 }
 .Tocli a {
   display: block;
